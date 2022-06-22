@@ -1,0 +1,660 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@300&family=Roboto+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body,html{
+    font-size: 100%;
+    height: 100%;
+    margin: 0% auto;
+    cursor: url("../files/mouse.png"), default;
+}
+
+.bg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url("../files/bg.gif")
+}
+
+.bg-dois{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url("../files/bg2.gif")
+}
+
+.bg-tres{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url("../files/bg3.jpg")
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    gap: 30px;
+    margin-right: 59vh;
+    color: #00feff;
+}
+
+a {
+    color: #ffffff;
+    transition: 0.3s all;
+}
+
+a:hover{
+    color: #00feff;
+    transition: 0.3s all;
+    transform: translateY(-8px);
+    text-shadow: 0px 0px 4px #00feff,
+    0 0 2px #00feff,
+    0 0 6px #00feff;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #00feff;
+    width: 100%;
+    height: 10vh;
+    padding: 5vh;
+    background-color: #000000;
+    border-bottom: 0.4px solid #00feff;
+    position: fixed;
+}
+
+.cabecalho-tres{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #00feff;
+    width: 100%;
+    height: 10vh;
+    padding: 5vh;
+    background-color: #000000;
+    border-bottom: 0.4px solid #00feff;
+}
+
+.cabecalho-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    height: 10vh;
+    margin: 0%;
+    margin-top: 1px;
+    margin-bottom: 2vh;
+    margin-left: 1vh;
+    cursor: url("/files/mouse2.png"), default;
+}
+
+.cabecalho-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+    flex-direction: row;
+    width: auto;
+    height: 4vh;
+    margin-right: 50vh;
+    gap: 4vh;
+}
+
+.cabecalho-item {
+    font-family: 'Secular One', sans-serif;
+    gap: 2vh;
+    font-weight: 20vh;
+    font-size: 2vh;
+}
+
+.titulo-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Neonderthaw', cursive;
+    color: #00feff;
+    width: auto;
+    height: 90vh;
+    padding: 25vh;
+    text-shadow: 2px 2px 5px #00e1ff;
+}
+
+.logo-grande{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 40vh;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slogan{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 3vh;
+    margin-top: 5vh;
+    font-family: 'Inconsolata', monospace;
+}
+
+.conteudo-um{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    font-family: 'Archivo', sans-serif;
+    width: auto;
+    height: 95vh;
+    color: #00feff;
+    background-color: #000000;
+    text-shadow: 1px 1px 3px #00feff;
+}
+
+.conteudo-dois{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: auto;
+    height: 85vh;
+    color: #030303;
+    background-color: #000000;
+}
+
+.conteudo-tres{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    text-align: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    width: auto;
+    height: 65vh;
+    color: #00feff;
+    text-shadow: 1px 1px 3px #00feff;
+}
+
+.conteudo-um-text{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 5vh;
+    margin-top: 20vh;
+    margin-left: 40vh;
+    justify-content: center;
+    width: auto;
+    height: 50vh;
+    cursor: url("/files/mouse2.png"), default;
+    background-color: #000000;
+    border: #00feff solid 2px;
+    padding: 50px;
+    box-shadow: -20px 10px 10px #00feff,
+    0 0 5px #00feff,
+    0 0 10px #00feff,
+    0 0 40px #00feff;
+    border-radius: 30px;
+}
+
+.conteudo-dois-text{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 2vh;
+    margin-top: 20vh;
+    margin-left: 40vh;
+    justify-content: center;
+    width: auto;
+    height: 60vh;
+    cursor: url("/files/mouse2.png"), default;
+    background-color: #000000;
+    border: #00feff solid 2px;
+    padding: 50px;
+    box-shadow: -20px 10px 10px #00feff,
+    0 0 5px #00feff,
+    0 0 10px #00feff,
+    0 0 40px #00feff;
+    border-radius: 30vh;
+}
+
+.conteudo-dois-text:hover{
+    gap: 2vh;
+    margin-top: 20vh;
+    margin-left: 40vh;
+    border: #ff0000 solid 1px;
+    padding: 50px;
+    box-shadow: -50px 30px 10px #ff0000,
+    0 0 5px #ff0000,
+    0 0 10px #ff0000,
+    0 0 90px #ff0000;
+    border-radius: 20vh;
+    transition: 1s;
+}
+
+.conteudo-tres-text{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 2vh;
+    margin-top: 20vh;
+    margin-left: 80vh;
+    justify-content: center;
+    width: auto;
+    height: 45vh;
+    cursor: url("/files/mouse2.png"), default;
+    background-color: #1a1a1a;
+    border: #000000d7 solid 1px;
+    padding: 50px;
+    box-shadow: -30px 10px 4px #234cd3d7,
+    0 0 5px #000000d7,
+    0 0 10px #000000d7,
+    0 0 20px #000000d7;
+    border-radius: 20px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.conteudo-tres-text-zap{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 2vh;
+    margin-top: 20vh;
+    margin-left: 80vh;
+    justify-content: center;
+    width: auto;
+    height: 45vh;
+    cursor: url("/files/mouse2.png"), default;
+    background-color: #1a1a1a;
+    border: #000000d7 solid 1px;
+    padding: 50px;
+    box-shadow: -30px 10px 4px #0be63ad7,
+    0 0 5px #000000d7,
+    0 0 10px #000000d7,
+    0 0 20px #000000d7;
+    border-radius: 20px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.conteudo-tres-text-zap:hover{
+    gap: 2vh;
+    margin-top: 20vh;
+    margin-left: 80vh;
+    height: 50vh;
+    background-color: #1a1a1a;
+    border: #000000d7 solid 1px;
+    padding: 50px;
+    box-shadow: -20px 20px 4px #0be63ad7,
+    0 0 5px #000000d7,
+    0 0 10px #000000d7,
+    0 0 20px #000000d7;
+    border-radius: 90px;
+    transition: 2s;
+}
+
+.conteudo-tres-text:hover{
+    gap: 2vh;
+    margin-top: 20vh;
+    margin-left: 80vh;
+    height: 50vh;
+    background-color: #1a1a1a;
+    border: #000000d7 solid 1px;
+    padding: 50px;
+    box-shadow: -20px 20px 4px #234cd3d7,
+    0 0 5px #000000d7,
+    0 0 10px #000000d7,
+    0 0 20px #000000d7;
+    border-radius: 90px;
+    transition: 2s;
+}
+
+.conteudo-um-text:hover{
+    color: #000000;
+    transition: 0.3s all;
+    transform: translateX(-48px);
+    text-shadow:  0px 0px 3px #00ff37,
+    0px 0px 4px #0c0c0c,
+    0px 0px 4px #000000;
+    border-radius: 100px;
+    background-color: #000000;
+    border:  solid 2px #11ec5a;
+    padding: 10px;
+    box-shadow: 0px 0px 1px #11ec5a ,
+    0 0 1px #11ec5a,
+    0 0 10px #11ec5a,
+    0 0 30px #11ec5a;
+    transition: 1s;
+}
+
+.conteudo-um-image{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 1vh;
+    margin-top: 20vh;
+    margin-right: 29vh;
+    justify-content: center;
+    width: 55vh;
+    height: 65vh; 
+}
+
+.conteudo-dois-image{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 1vh;
+    margin-top: 20vh;
+    margin-right: 29vh;
+    justify-content: center;
+    width: 45vh;
+    height: 45vh; 
+}
+
+.conteudo-tres-image{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 1vh;
+    margin-top: 25vh;
+    margin-right: 60vh;
+    justify-content: center;
+    width: 35vh;
+    height: 35vh; 
+}
+
+.conteudo-um-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    text-align: center;
+    font-family: 'Archivo', sans-serif;
+    width: auto;
+    height: 85vh;
+    color: #00feff;
+    text-shadow: 1px 1px 3px #00feff;
+}
+
+.conteudo-um-text-reverse{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 2vh;
+    margin-top: 20vh;
+    margin-right: 40vh;
+    justify-content: center;
+    width: auto;
+    height: 60vh;
+    cursor: url("/files/mouse2.png"), default;
+    background-color: #050505;
+    border: #00feff solid 2px;
+    padding: 50px;
+    box-shadow: 0px 0px 4px #00feff,
+    0 0 5px #00feff,
+    0 0 10px #00feff,
+    0 0 20px #00feff;
+    border-radius: 30px;
+}
+
+.conteudo-um-text-reverse:hover{
+    color: #000000;
+    transition: 0.3s all;
+    transform: translateX(48px);
+    text-shadow:  0px 0px 4px #feffff,
+    0px 0px 4px #0c0c0c,
+    0px 0px 4px #000000;
+    border-radius: 100px;
+    background-color: #000000;
+    border: #feffff solid 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 4px #feffff ,
+    0 0 5px #feffff,
+    0 0 10px #feffff,
+    0 0 20px #feffff;
+}
+
+.conteudo-um-image-reverse{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 1vh;
+    margin-top: 20vh;
+    margin-left: 29vh;
+    justify-content: center;
+    width: 70vh;
+    height: 60vh; 
+}
+
+.botao-add-bot{
+    background-color: #00feff;
+    margin-top: 40px;
+    width: 18vh;
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: #1f1f1f;
+    height: 6vh;
+    border: none;
+    box-shadow: 4px 5px 4px var(--oii),
+    0 0 8px var(--oii),
+    0 0 10px var(--oii),
+    0 0 20px var(--oii);
+    border-radius: 50px;
+}
+
+.botao-add-bot-tres{
+    background-color: #3d3bce;
+    margin-top: 40px;
+    width: 18vh;
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+    height: 6vh;
+    border: none;
+    box-shadow: 4px 5px 4px var(--oii),
+    0 0 8px var(--oii),
+    0 0 10px var(--oii),
+    0 0 20px var(--oii);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.botao-add-bot-tres:hover{
+    background-color: #0fb140;
+    margin-top: 40px;
+    width: 18vh;
+    font-size: 25px;
+    color: #ffffff;
+    height: 6vh;
+    box-shadow: 4px 5px 4px var(--oii),
+    0 0 8px var(--oii),
+    0 0 10px var(--oii),
+    0 0 20px var(--oii);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.botao-add-bot:hover{
+
+    background-color: #00ff37;
+    cursor: pointer;
+    box-shadow: 0px 0px 4px #00ff37,
+    0 0 5px #00ff37,
+    0 0 15px #00ff37,
+    0 0 25px #00ff37;
+    transition: 1s;
+}
+
+.text-conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+    color: rgb(255, 255, 255);
+    font-family: 'Staatliches', cursive;
+}
+
+.text-conteudo-dois{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+    color: rgb(255, 255, 255);
+    font-family: 'Staatliches', cursive;
+}
+
+.text-conteudo-dois:hover{
+    gap: 10px;
+    font-size: 25px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Staatliches', cursive;
+    transition: 1s;
+}
+
+.titulo-v{
+    
+    color: #00feff;
+}
+
+.titulo-v2{
+
+    color: #ff0000;
+}
+
+.footer-basic{
+    display: flex;
+    gap: 10px;
+    justify-content:center;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Archivo', sans-serif;
+    color:#00feff;
+    width: auto;
+    height: 15vh;
+    gap: 2px;
+    background-color: #000000;
+}
+
+.img-to-up-flex{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: end;
+    margin: auto;
+    background-color: #000000;
+}
+
+.img-to-up{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 10vh;
+    width: 6vh;
+    margin: auto;
+    background-color: #000000;
+}
+
+.tablezin{
+    display: flex;
+    color: #ffffff;
+    width: auto;
+    margin: auto;
+    height: auto;
+    justify-content: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding: 10vh;
+}
+
+.tablezinv2{
+    display: flex;
+    color: #ffffff;
+    width: 40vh;
+    margin: auto;
+    height: 60vh;
+    background-color: #000000;
+    justify-content: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    border: #050505 solid 2px;
+    border-radius: 10px;
+    box-shadow: 10px 100px 100px #020202;
+}
+
+.tablezinv2:hover{
+    color: #10b9cf;
+    width: 45vh;
+    height: 63vh;
+    background-color: #000000;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    border: #ffffff solid 2px;
+    border-radius: 90px;
+    box-shadow: 0px 20px 10px #ffffff,
+    0px 0px 5px #ffffff,
+    0px 10px 20px #ffffff,
+    0px 20px 40px #1da4e2;
+    transition: 4s;
+}
+
+.centertable{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 6px;
+    border: #ffffff solid 2px;
+}
+
+.centertable-titulos{
+    border-radius: 6px;
+    border: #ffffff solid 2px;
+}
+
+.centertable-titulosv2{
+    display: flex;
+    justify-content: start;
+    font-family: 'Staatliches', cursive;
+    gap: 20px;
+    text-align: start;
+    flex-direction: row;
+    margin: auto;
+    width: auto;
+    height: auto;
+    color: #00e1ff;
+}
+
+.centertable-titulosv2:hover{
+    color: #790548;
+}
